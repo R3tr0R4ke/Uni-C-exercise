@@ -14,7 +14,7 @@ int main()
     int mcd = MCD(num1, num2);
 
     printf("L'MCD del numero %d e di %d è: %d\n", num1, num2, mcd);
-    
+    return 0;
 }
 
 int MCD (int num1, int num2)
@@ -30,5 +30,3 @@ int MCD (int num1, int num2)
     
     return num1;
 }
-
-

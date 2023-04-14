@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdbool.h>
+#include <stdbool.h>
 
 int main ()
 {
@@ -37,6 +37,7 @@ int main ()
         }
 
     } while (termina == false);
+    return 0;
 }
 
 void determinaTriangolo (int x, int y, int z)
