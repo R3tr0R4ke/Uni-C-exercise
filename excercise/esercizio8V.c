@@ -55,7 +55,7 @@ void main()
     printf("Voti: ");
     for (int i = 0; i < contaVoti; i++)
     {
-        printf(" %d", vetVoti[i]);
+        printf(" %d,", vetVoti[i]);
     }
 
     float media;
@@ -64,5 +64,15 @@ void main()
     {
         somma += vetVoti[i];
     }
-    printf("\nMedia: %.2f", (float)somma / contaVoti);
+    media = (float)somma / contaVoti;
+    printf("\nMedia: %.2f", media);
+
+    if (media >= 6)
+    {
+        printf("\nPROMOSSO");
+    }
+    else
+    {
+        printf("\nBOCCIATO");
+    }
 }
