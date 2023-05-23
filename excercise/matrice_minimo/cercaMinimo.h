@@ -1,0 +1,1 @@
+void cercaMinimo(int mat[10][10], int* rigaMinimo, int* colonnaMinimo);
