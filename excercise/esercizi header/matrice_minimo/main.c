@@ -3,7 +3,7 @@
 #include <time.h>
 
 #include "cercaMinimo.h"
-#include "cercaMinimo.c"
+//#include "cercaMinimo.c"
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 /*
