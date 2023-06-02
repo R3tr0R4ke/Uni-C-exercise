@@ -2,7 +2,8 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "windows.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "PRA.C": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
