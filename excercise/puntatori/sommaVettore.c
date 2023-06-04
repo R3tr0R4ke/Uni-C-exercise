@@ -6,7 +6,7 @@ void main ()
 {
     int vettore[] = {5, 10, 15, 20, 25};
 
-    printf("La somma del vettore è : %d", sommaVettore(&vettore));
+    printf("La somma del vettore è : %d", sommaVettore(vettore));
 }
 
 int sommaVettore(int* ptrVet)
